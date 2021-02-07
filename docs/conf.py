@@ -10,15 +10,17 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import sys
 import os
+import sys
 
-sys.path.insert(0, os.path.abspath("../src/"))
+sys.path.insert(0, os.path.abspath("../src"))
+
+
 # -- Project information -----------------------------------------------------
 
-project = "Example of Documentation"
-copyright = "2021, Unit"
-author = "Unit"
+project = "Project"
+copyright = "2021, gsanm"
+author = "gsanm"
 
 
 # -- General configuration ---------------------------------------------------
@@ -47,7 +49,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"  # gola
+html_theme = "sphinx_rtd_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
