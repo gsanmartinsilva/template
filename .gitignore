@@ -1,2 +1,9 @@
 # compiled docs
 docs/_build
+
+# vscode stuff
+.vscode
+
+# stuff
+*.pyc
+src/__pycache__
